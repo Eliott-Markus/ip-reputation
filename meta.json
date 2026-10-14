@@ -1,1 +1,82 @@
-{}
+{
+ "generated_at": "2026-10-14T15:58:06Z",
+ "files": {
+  "ipv4.txt.gz": {
+   "ranges": 1390227,
+   "sha256": "d814bb870244852c4abf46eb1bde85774a7adaab29bfcfe1d623d99bbc72f6c6",
+   "bytes": 6778826
+  },
+  "ipv6.txt.gz": {
+   "ranges": 5737,
+   "sha256": "0b84266ea37a856c02fc9dfaaca05eaeb53f337d1e0a052bc1ece0b3b1dbc709",
+   "bytes": 35222
+  }
+ },
+ "sources": {
+  "tor_bulk_exits": {
+   "url": "https://check.torproject.org/torbulkexitlist",
+   "what": "Tor exit nodes (IPv4)",
+   "count": 1212
+  },
+  "tor_relays": {
+   "url": "https://onionoo.torproject.org/details?flag=Exit&running=true&fields=or_addresses,exit_addresses",
+   "what": "Tor exit relays (IPv4 + IPv6)",
+   "count": 7582
+  },
+  "x4b_vpn_v4": {
+   "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
+   "what": "VPN providers",
+   "count": 11045
+  },
+  "x4b_vpn_v6": {
+   "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt",
+   "what": "VPN providers",
+   "count": 498
+  },
+  "x4b_datacenter_v4": {
+   "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt",
+   "what": "Datacenter / hosting",
+   "count": 44345
+  },
+  "x4b_datacenter_v6": {
+   "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv6.txt",
+   "what": "Datacenter / hosting",
+   "count": 8752
+  },
+  "firehol_level1": {
+   "url": "https://iplists.firehol.org/files/firehol_level1.netset",
+   "what": "FireHOL level 1 blocklist",
+   "count": 4628
+  },
+  "firehol_proxies": {
+   "url": "https://iplists.firehol.org/files/firehol_proxies.netset",
+   "what": "FireHOL open / abusive proxies",
+   "count": 2880350
+  },
+  "aws": {
+   "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+   "what": "Amazon Web Services",
+   "count": 17574
+  },
+  "gcp": {
+   "url": "https://www.gstatic.com/ipranges/cloud.json",
+   "what": "Google Cloud",
+   "count": 1127
+  },
+  "oracle": {
+   "url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
+   "what": "Oracle Cloud",
+   "count": 1107
+  },
+  "digitalocean": {
+   "url": "https://digitalocean.com/geo/google.csv",
+   "what": "DigitalOcean",
+   "count": 1234
+  },
+  "linode": {
+   "url": "https://geoip.linode.com/",
+   "what": "Linode / Akamai",
+   "count": 5505
+  }
+ }
+}
