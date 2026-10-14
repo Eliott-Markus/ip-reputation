@@ -1,0 +1,40 @@
+name: Build dataset
+
+# Daily: rebuild from the sources, refuse anything suspicious (see build.py), publish to the "latest" release.
+# A refused build publishes nothing: consumers keep the previous files.
+on:
+  schedule:
+    - cron: '17 3 * * *'   # 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write   # release upload + meta.json history commit
+
+concurrency: build
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Previous counts (to catch a source that suddenly shrank)
+        run: cp meta.json previous-meta.json 2>/dev/null || echo '{}' > previous-meta.json
+
+      - name: Build
+        run: python3 build.py previous-meta.json
+
+      - name: Publish to the latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view latest >/dev/null 2>&1 || gh release create latest --title "Latest dataset" --notes "Rebuilt daily. See README for the format and sources."
+          gh release upload latest dist/ipv4.txt.gz dist/ipv6.txt.gz dist/meta.json --clobber
+
+      - name: Keep the counts history in git
+        run: |
+          cp dist/meta.json meta.json
+          git config user.name "ip-reputation-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add meta.json
+          git diff --cached --quiet || git commit -m "Dataset $(date -u +%F)" && git push
