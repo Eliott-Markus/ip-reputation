@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-10-14T15:58:06Z",
+ "generated_at": "2026-10-15T08:24:09Z",
  "files": {
   "ipv4.txt.gz": {
-   "ranges": 1390227,
-   "sha256": "d814bb870244852c4abf46eb1bde85774a7adaab29bfcfe1d623d99bbc72f6c6",
-   "bytes": 6778826
+   "ranges": 1395118,
+   "sha256": "cbc30885e04bb4c0e6d64369dfd8d707ed0c63d6d67d5517f415f2da0802a7bc",
+   "bytes": 6802396
   },
   "ipv6.txt.gz": {
-   "ranges": 5737,
-   "sha256": "0b84266ea37a856c02fc9dfaaca05eaeb53f337d1e0a052bc1ece0b3b1dbc709",
-   "bytes": 35222
+   "ranges": 5734,
+   "sha256": "3ae77b67ddb1ea62a08baa54e27396d4d5c7c7d79a68c58dd8fbded839cf8467",
+   "bytes": 35217
   }
  },
  "sources": {
   "tor_bulk_exits": {
    "url": "https://check.torproject.org/torbulkexitlist",
    "what": "Tor exit nodes (IPv4)",
-   "count": 1212
+   "count": 1210
   },
   "tor_relays": {
    "url": "https://onionoo.torproject.org/details?flag=Exit&running=true&fields=or_addresses,exit_addresses",
    "what": "Tor exit relays (IPv4 + IPv6)",
-   "count": 7582
+   "count": 7810
   },
   "x4b_vpn_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
@@ -46,17 +46,17 @@
   "firehol_level1": {
    "url": "https://iplists.firehol.org/files/firehol_level1.netset",
    "what": "FireHOL level 1 blocklist",
-   "count": 4628
+   "count": 4630
   },
   "firehol_proxies": {
    "url": "https://iplists.firehol.org/files/firehol_proxies.netset",
    "what": "FireHOL open / abusive proxies",
-   "count": 2880350
+   "count": 2886777
   },
   "aws": {
    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
    "what": "Amazon Web Services",
-   "count": 17574
+   "count": 17593
   },
   "gcp": {
    "url": "https://www.gstatic.com/ipranges/cloud.json",
