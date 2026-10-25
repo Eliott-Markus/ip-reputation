@@ -1,32 +1,32 @@
 {
- "generated_at": "2026-10-24T08:13:40Z",
+ "generated_at": "2026-10-25T08:31:35Z",
  "files": {
   "ipv4.txt.gz": {
-   "ranges": 1390409,
-   "sha256": "836e79e3a08651203d0aae82f86a9e0ad135f577a64dd3bf162302a68284c9d3",
-   "bytes": 6780242
+   "ranges": 1393637,
+   "sha256": "595686b035cb7b8b03cc5b81471e145356e1113deb4b9acf207e3d424a85495c",
+   "bytes": 6800813
   },
   "ipv6.txt.gz": {
-   "ranges": 5750,
-   "sha256": "4b2c1fea2dc654e0ca12d679d1c5bdcd1a7ca259c613b4beade582dbb49d8034",
-   "bytes": 35284
+   "ranges": 5743,
+   "sha256": "c6c844ec3b9805870361dbc9798bce444c31354c717b50f8cda441f4f443eead",
+   "bytes": 35257
   }
  },
  "sources": {
   "tor_bulk_exits": {
    "url": "https://check.torproject.org/torbulkexitlist",
    "what": "Tor exit nodes (IPv4)",
-   "count": 1217
+   "count": 1212
   },
   "tor_relays": {
    "url": "https://onionoo.torproject.org/details?flag=Exit&running=true&fields=or_addresses,exit_addresses",
    "what": "Tor exit relays (IPv4 + IPv6)",
-   "count": 7882
+   "count": 7860
   },
   "x4b_vpn_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
    "what": "VPN providers",
-   "count": 10942
+   "count": 10931
   },
   "x4b_vpn_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt",
@@ -36,7 +36,7 @@
   "x4b_datacenter_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt",
    "what": "Datacenter / hosting",
-   "count": 44603
+   "count": 44584
   },
   "x4b_datacenter_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv6.txt",
@@ -51,12 +51,12 @@
   "firehol_proxies": {
    "url": "https://iplists.firehol.org/files/firehol_proxies.netset",
    "what": "FireHOL open / abusive proxies",
-   "count": 2890412
+   "count": 2894490
   },
   "aws": {
    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
    "what": "Amazon Web Services",
-   "count": 17687
+   "count": 17688
   },
   "gcp": {
    "url": "https://www.gstatic.com/ipranges/cloud.json",
@@ -71,7 +71,7 @@
   "digitalocean": {
    "url": "https://digitalocean.com/geo/google.csv",
    "what": "DigitalOcean",
-   "count": 1235
+   "count": 1236
   },
   "linode": {
    "url": "https://geoip.linode.com/",
