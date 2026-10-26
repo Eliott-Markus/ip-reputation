@@ -1,32 +1,32 @@
 {
- "generated_at": "2026-10-25T08:31:35Z",
+ "generated_at": "2026-10-26T09:04:27Z",
  "files": {
   "ipv4.txt.gz": {
-   "ranges": 1393637,
-   "sha256": "595686b035cb7b8b03cc5b81471e145356e1113deb4b9acf207e3d424a85495c",
-   "bytes": 6800813
+   "ranges": 1380041,
+   "sha256": "2ee4663868fe7efe556c13e0e0588f3ef27eaff7b7ca846377c579f97fe96db4",
+   "bytes": 6728426
   },
   "ipv6.txt.gz": {
-   "ranges": 5743,
-   "sha256": "c6c844ec3b9805870361dbc9798bce444c31354c717b50f8cda441f4f443eead",
-   "bytes": 35257
+   "ranges": 5737,
+   "sha256": "4bee7663015926a9dd4ea3ad67dddf44c392fd35cccb2b6dc1220e15d7f19987",
+   "bytes": 35246
   }
  },
  "sources": {
   "tor_bulk_exits": {
    "url": "https://check.torproject.org/torbulkexitlist",
    "what": "Tor exit nodes (IPv4)",
-   "count": 1212
+   "count": 1211
   },
   "tor_relays": {
    "url": "https://onionoo.torproject.org/details?flag=Exit&running=true&fields=or_addresses,exit_addresses",
    "what": "Tor exit relays (IPv4 + IPv6)",
-   "count": 7860
+   "count": 7823
   },
   "x4b_vpn_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
    "what": "VPN providers",
-   "count": 10931
+   "count": 10934
   },
   "x4b_vpn_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt",
@@ -36,7 +36,7 @@
   "x4b_datacenter_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt",
    "what": "Datacenter / hosting",
-   "count": 44584
+   "count": 44598
   },
   "x4b_datacenter_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv6.txt",
@@ -46,22 +46,22 @@
   "firehol_level1": {
    "url": "https://iplists.firehol.org/files/firehol_level1.netset",
    "what": "FireHOL level 1 blocklist",
-   "count": 4632
+   "count": 4634
   },
   "firehol_proxies": {
    "url": "https://iplists.firehol.org/files/firehol_proxies.netset",
    "what": "FireHOL open / abusive proxies",
-   "count": 2894490
+   "count": 2881196
   },
   "aws": {
    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
    "what": "Amazon Web Services",
-   "count": 17688
+   "count": 17693
   },
   "gcp": {
    "url": "https://www.gstatic.com/ipranges/cloud.json",
    "what": "Google Cloud",
-   "count": 1128
+   "count": 1135
   },
   "oracle": {
    "url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
@@ -71,7 +71,7 @@
   "digitalocean": {
    "url": "https://digitalocean.com/geo/google.csv",
    "what": "DigitalOcean",
-   "count": 1236
+   "count": 1235
   },
   "linode": {
    "url": "https://geoip.linode.com/",
