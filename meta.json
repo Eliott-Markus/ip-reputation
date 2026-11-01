@@ -1,32 +1,32 @@
 {
- "generated_at": "2026-10-31T09:44:59Z",
+ "generated_at": "2026-11-01T10:35:58Z",
  "files": {
   "ipv4.txt.gz": {
-   "ranges": 1337763,
-   "sha256": "9f0f316f5bbe54dc6e79cb6b8b160dcd3b6b13961f656a85e4dc55d369aceda3",
-   "bytes": 6533837
+   "ranges": 1335971,
+   "sha256": "d52180874bc7c5e3791864bcb74d771774ab3c3be3e925451e169366782ad3c5",
+   "bytes": 6522849
   },
   "ipv6.txt.gz": {
-   "ranges": 7013,
-   "sha256": "738978586dbdc25640910ca96c159ea89d5fb11def3fb91df5ece4977e955e0e",
-   "bytes": 42514
+   "ranges": 6992,
+   "sha256": "b516d82563a6e4f9cfa23d3e7561332f7a7e781bd0e7cf1e1be04ccd1812f906",
+   "bytes": 42445
   }
  },
  "sources": {
   "tor_bulk_exits": {
    "url": "https://check.torproject.org/torbulkexitlist",
    "what": "Tor exit nodes (IPv4)",
-   "count": 1224
+   "count": 1231
   },
   "tor_relays": {
    "url": "https://onionoo.torproject.org/details?flag=Exit&running=true&fields=or_addresses,exit_addresses",
    "what": "Tor exit relays (IPv4 + IPv6)",
-   "count": 7948
+   "count": 7942
   },
   "x4b_vpn_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
    "what": "VPN providers",
-   "count": 11000
+   "count": 11011
   },
   "x4b_vpn_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt",
@@ -36,27 +36,27 @@
   "x4b_datacenter_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt",
    "what": "Datacenter / hosting",
-   "count": 44542
+   "count": 44598
   },
   "x4b_datacenter_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv6.txt",
    "what": "Datacenter / hosting",
-   "count": 8025
+   "count": 7995
   },
   "firehol_level1": {
    "url": "https://iplists.firehol.org/files/firehol_level1.netset",
    "what": "FireHOL level 1 blocklist",
-   "count": 4651
+   "count": 4649
   },
   "firehol_proxies": {
    "url": "https://iplists.firehol.org/files/firehol_proxies.netset",
    "what": "FireHOL open / abusive proxies",
-   "count": 2896568
+   "count": 2894720
   },
   "aws": {
    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
    "what": "Amazon Web Services",
-   "count": 17756
+   "count": 17754
   },
   "gcp": {
    "url": "https://www.gstatic.com/ipranges/cloud.json",
