@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-02T11:21:25Z",
+ "generated_at": "2026-11-03T10:58:56Z",
  "files": {
   "ipv4.txt.gz": {
-   "ranges": 1339868,
-   "sha256": "d564a7dc77b98341f221d7923da28e263d1929ac5d4d9b7baa193b137d1bc8c5",
-   "bytes": 6542754
+   "ranges": 1337294,
+   "sha256": "cf02a149525051617c3dc7522019ad5bfe505be90f07725794d55004bddba2cd",
+   "bytes": 6530972
   },
   "ipv6.txt.gz": {
-   "ranges": 6995,
-   "sha256": "74a28a2284f97c13b07075f37f2cb0aac1eb76be10886f1442f424ef0162e195",
-   "bytes": 42502
+   "ranges": 6991,
+   "sha256": "4b79a751f2d0976f9ce1782d523d240be38fb6b4cd0b4e781d24067b90b40052",
+   "bytes": 42399
   }
  },
  "sources": {
@@ -21,12 +21,12 @@
   "tor_relays": {
    "url": "https://onionoo.torproject.org/details?flag=Exit&running=true&fields=or_addresses,exit_addresses",
    "what": "Tor exit relays (IPv4 + IPv6)",
-   "count": 7958
+   "count": 7973
   },
   "x4b_vpn_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
    "what": "VPN providers",
-   "count": 10999
+   "count": 11079
   },
   "x4b_vpn_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt",
@@ -36,22 +36,22 @@
   "x4b_datacenter_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt",
    "what": "Datacenter / hosting",
-   "count": 44597
+   "count": 44615
   },
   "x4b_datacenter_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv6.txt",
    "what": "Datacenter / hosting",
-   "count": 7998
+   "count": 8001
   },
   "firehol_level1": {
    "url": "https://iplists.firehol.org/files/firehol_level1.netset",
    "what": "FireHOL level 1 blocklist",
-   "count": 4649
+   "count": 4652
   },
   "firehol_proxies": {
    "url": "https://iplists.firehol.org/files/firehol_proxies.netset",
    "what": "FireHOL open / abusive proxies",
-   "count": 2899573
+   "count": 2897452
   },
   "aws": {
    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
