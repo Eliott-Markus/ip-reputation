@@ -1,47 +1,47 @@
 {
- "generated_at": "2026-11-07T10:22:12Z",
+ "generated_at": "2026-11-08T10:30:32Z",
  "files": {
   "ipv4.txt.gz": {
-   "ranges": 1350859,
-   "sha256": "88c11248f7590c501311fe9e1641d74b91a84c8e509806decc97473eca9f0fb3",
-   "bytes": 6599171
+   "ranges": 1350336,
+   "sha256": "6d75505c29ccc8104ebe0773c7786e66ad13d9efd39d1c09ba5089639a16d6e4",
+   "bytes": 6594895
   },
   "ipv6.txt.gz": {
-   "ranges": 7027,
-   "sha256": "d1549f000a40cce0cd1cc2854e3f6ddb5491ff77de68c3a30d828cd50a9a1e53",
-   "bytes": 42588
+   "ranges": 7026,
+   "sha256": "e41426dfc1de167f7f711fae4adf7f847f4828197b42b1a4f128acdba37f3659",
+   "bytes": 42585
   }
  },
  "sources": {
   "tor_bulk_exits": {
    "url": "https://check.torproject.org/torbulkexitlist",
    "what": "Tor exit nodes (IPv4)",
-   "count": 1247
+   "count": 1244
   },
   "tor_relays": {
    "url": "https://onionoo.torproject.org/details?flag=Exit&running=true&fields=or_addresses,exit_addresses",
    "what": "Tor exit relays (IPv4 + IPv6)",
-   "count": 7920
+   "count": 7953
   },
   "x4b_vpn_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
    "what": "VPN providers",
-   "count": 11110
+   "count": 11131
   },
   "x4b_vpn_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt",
    "what": "VPN providers",
-   "count": 693
+   "count": 694
   },
   "x4b_datacenter_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt",
    "what": "Datacenter / hosting",
-   "count": 44908
+   "count": 44953
   },
   "x4b_datacenter_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv6.txt",
    "what": "Datacenter / hosting",
-   "count": 8059
+   "count": 8063
   },
   "firehol_level1": {
    "url": "https://iplists.firehol.org/files/firehol_level1.netset",
@@ -51,12 +51,12 @@
   "firehol_proxies": {
    "url": "https://iplists.firehol.org/files/firehol_proxies.netset",
    "what": "FireHOL open / abusive proxies",
-   "count": 2914800
+   "count": 2915953
   },
   "aws": {
    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
    "what": "Amazon Web Services",
-   "count": 17801
+   "count": 17803
   },
   "gcp": {
    "url": "https://www.gstatic.com/ipranges/cloud.json",
@@ -71,7 +71,7 @@
   "digitalocean": {
    "url": "https://digitalocean.com/geo/google.csv",
    "what": "DigitalOcean",
-   "count": 1238
+   "count": 1239
   },
   "linode": {
    "url": "https://geoip.linode.com/",
