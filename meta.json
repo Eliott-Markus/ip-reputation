@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-19T11:49:36Z",
+ "generated_at": "2026-11-20T11:50:14Z",
  "files": {
   "ipv4.txt.gz": {
-   "ranges": 1361089,
-   "sha256": "9aef74b8aae57b6812bdf3150e852fa8d253f9c3620a59a0e757a3b7f6a96ede",
-   "bytes": 6652023
+   "ranges": 1360142,
+   "sha256": "8f5522fbf41340dbde5f1a3d9e290c29d27db95e9831c0e48d348bed3434cb04",
+   "bytes": 6644028
   },
   "ipv6.txt.gz": {
-   "ranges": 7479,
-   "sha256": "c83e8b644624b4942a5d06a6d85556c9d806d17532bdbd4868f4e0e95a9fd5a0",
-   "bytes": 45219
+   "ranges": 7575,
+   "sha256": "5170dca3bd4ae15db7c80509ddc8532fcb9a6f8a6a32fab82002ac04ad02af5a",
+   "bytes": 45741
   }
  },
  "sources": {
@@ -21,12 +21,12 @@
   "tor_relays": {
    "url": "https://onionoo.torproject.org/details?flag=Exit&running=true&fields=or_addresses,exit_addresses",
    "what": "Tor exit relays (IPv4 + IPv6)",
-   "count": 8077
+   "count": 7977
   },
   "x4b_vpn_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
    "what": "VPN providers",
-   "count": 11056
+   "count": 11060
   },
   "x4b_vpn_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt",
@@ -36,27 +36,27 @@
   "x4b_datacenter_v4": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt",
    "what": "Datacenter / hosting",
-   "count": 45937
+   "count": 45966
   },
   "x4b_datacenter_v6": {
    "url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv6.txt",
    "what": "Datacenter / hosting",
-   "count": 8687
+   "count": 8799
   },
   "firehol_level1": {
    "url": "https://iplists.firehol.org/files/firehol_level1.netset",
    "what": "FireHOL level 1 blocklist",
-   "count": 4635
+   "count": 4630
   },
   "firehol_proxies": {
    "url": "https://iplists.firehol.org/files/firehol_proxies.netset",
    "what": "FireHOL open / abusive proxies",
-   "count": 2944495
+   "count": 2945739
   },
   "aws": {
    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
    "what": "Amazon Web Services",
-   "count": 17823
+   "count": 17826
   },
   "gcp": {
    "url": "https://www.gstatic.com/ipranges/cloud.json",
@@ -76,7 +76,7 @@
   "linode": {
    "url": "https://geoip.linode.com/",
    "what": "Linode / Akamai",
-   "count": 5505
+   "count": 5509
   }
  }
 }
